@@ -1,0 +1,89 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+}
+
+/* Seção de Introdução */
+.intro {
+    padding: 30px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.intro h2 {
+    color: #4CAF50;
+    font-size: 2em;
+}
+
+.intro p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.intro .river-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Seção de Conflitos */
+.conflitos {
+    padding: 30px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.conflitos h2 {
+    color: #4CAF50;
+    font-size: 2em;
+}
+
+.conflitos p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
